@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher
 from handlers import router
 
 # BOT_TOKEN ni environmentdan olamiz
-API_TOKEN = os.getenv("8491503418:AAGjLVXXGlglXQjo7zHXPzzAqW0z0WPXSow")
+API_TOKEN = os.getenv("BOT_TOKEN")
 
 
 async def main():
